@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 // Set up the base URL for your API
-const API_URL = 'http://localhost:5000/api'; // Adjust based on your backend server
+const API_URL = 'https://smart-delivery-management-3gdr.onrender.com/api'; // Adjust based on your backend server
 
 // Partner API
 

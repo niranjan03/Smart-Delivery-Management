@@ -76,7 +76,7 @@ const PartnerRegistrationForm = () => {
         }
 
         try {
-            await axios.post('http://localhost:5000/api/partners/', {
+            await axios.post('https://smart-delivery-management-3gdr.onrender.com/api/partners/', {
                 name: formData.name,
                 email: formData.email,
                 phone: formData.phone,
