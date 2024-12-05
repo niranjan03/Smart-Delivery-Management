@@ -15,14 +15,13 @@ const Navbar = () => {
 
         <button
           className="flex justify-end md:hidden ring-1 ring-black rounded"
-          onClick={showNav}
-        >
+          onClick={showNav}  >
           <i className="fas fa-bars text-white w-9 h-9 flex justify-center items-center hover:text-black"></i>
         </button>
 
         <ul
           className={`${
-            toggle ? " flex" : " hidden"
+            toggle ? "flex" : "hidden"
           } flex-col justify-center items-center w-full first:mt-2 md:flex-row md:w-auto md:space-x-10 md:flex`}
         >
           {Menubar.map((link, index) => {
